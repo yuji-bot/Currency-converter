@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    text-align: center;
+    height: 10vmin;
+    background: pink;
+}
+
+.Corrency-converter{
+    height: 70vmin;
+    width: 100%;
+    background: skyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form{
+    height: 60vmin;
+    width: 40vmin;
+    border: 2px solid black;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    height: 80%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.amount{
+    height: 4vmin;
+    width: 100%;
+    background: white;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.amount input{
+    border: none;
+    background: transparent;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+.from{
+    display: flex;
+    height: 40%;
+    width: 100%;
+    background: gray;
+    justify-content: center;
+    align-items: center;
+}

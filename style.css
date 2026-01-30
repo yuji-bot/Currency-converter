@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family:'Times New Roman', Times, serif;
 }
 header{
     text-align: center;
@@ -11,7 +12,7 @@ header{
 .Corrency-converter{
     height: 70vmin;
     width: 100%;
-    background: skyblue;
+    background: bisque;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,37 +25,77 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+    background: white;
+}
+.dropdown{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 80%;
 }
 form{
-    height: 80%;
-    width: 80%;
+    height: 100%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 1rem;
+    gap: 2rem;
 }
 .amount{
     height: 4vmin;
-    width: 100%;
+    width: 90%;
     background: white;
     border-radius: 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 1px solid lightgrey;
 }
 .amount input{
     border: none;
     background: transparent;
-    text-align: center;
+    padding-left: 1rem;
     height: 100%;
     width: 100%;
+    outline: none;
 }
-.from{
+.from, .to{
     display: flex;
     height: 40%;
     width: 100%;
-    background: gray;
     justify-content: center;
     align-items: center;
+    border: 1px solid lightgrey;
+    border-radius: 1rem;
+    padding-left: 1rem;
+}
+.from img, .to img{
+    height: 2em;
+    object-fit:fill;
+    border-radius: 50%;
+}
+.selectdiv{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.selectdiv select{
+    border: none;
+    text-decoration: none;
+    background: transparent;
+    outline: none;
+}
+.msg{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    height: 20vmin;
+    justify-content: center;
+}
+.msg button{
+    border: 1px solid lightgrey;
+    border-radius: 1rem;
+    height: 4vmin;
 }
